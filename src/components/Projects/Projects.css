@@ -1,0 +1,196 @@
+.lodaing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* macbook pro 13 inch */
+@media only screen and (min-width: 1421px) {
+    .Projects {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .project-card-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        overflow: scroll;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+    }
+}
+
+/* 13 inch laptop, .75 screen */
+@media only screen and (min-width: 1176px) and (max-width: 1420px) {
+    .Projects {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .projects-header {
+        margin-top: 100px;
+    }
+    
+    .project-card-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        overflow: scroll;
+        padding-left: 250px;
+        padding-right: 250px;
+        margin-top: 30px;
+    }
+}
+
+/* 13 inch laptop, .75 screen */
+@media only screen and (min-width: 1001px) and (max-width: 1175px) {
+    .Projects {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+
+    .projects-header {
+        margin-top: 100px;
+    }
+    
+    .project-card-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        overflow: scroll;
+        padding-left: 150px;
+        padding-right: 150px;
+        margin-top: 30px;
+    }
+}
+
+/* macbook pro 13 inch 3/4 screen */
+@media only screen and (min-width: 876px) and (max-width: 1000px) {
+    .Projects {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .projects-header {
+        margin-top: 100px;
+    }
+    
+    .project-card-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        overflow: scroll;
+        padding-left: 80px;
+        padding-right: 80px;
+        margin-top: 30px;
+    }
+}
+
+/* macbook pro 13 inch 1/2 screen */
+@media only screen and (min-width: 761px) and (max-width: 875px) {
+    .Projects {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .projects-header {
+        margin-top: 100px;
+    }
+    
+    .project-card-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        overflow: scroll;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+    }
+}
+
+/* macbook pro 13 inch 1/4 screen */
+@media only screen and (max-width: 760px) {
+    .Projects {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .projects-header {
+        margin-top: 100px;
+        font-size: 25px;
+    }
+    
+    .project-card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        overflow: scroll;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+    }
+}
+
+/* macbook pro 13 inch 1/8 screen */
+@media only screen and (max-width: 760px) {
+    .Projects {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .projects-header {
+        margin-top: 100px;
+        font-size: 22px;
+    }
+    
+    .project-card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        overflow: scroll;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-top: 30px;
+    }
+}
+

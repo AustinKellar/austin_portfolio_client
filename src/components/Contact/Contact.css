@@ -1,0 +1,99 @@
+.Contact {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.email-header {
+    font-size: 33px;
+    margin-bottom: 30px;
+}
+
+.message-box {
+    display: inline-block;
+    background-color: rgb(35, 43, 66);
+    padding: 50px 40px 20px 40px;
+    border-radius: 10px;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+.input::placeholder {
+    color: lightgray;
+    opacity: 1;
+}
+
+
+.input:valid {
+    border: none;
+}
+
+.textarea {
+    resize: none;
+    width: 450px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    font-size: 15px;
+}
+
+.textarea:empty:before {
+    content:attr(data-text);
+    color:lightgray
+}
+
+.textarea:not(:empty) {
+    border: none;
+}
+
+.name {
+    margin-right: 5px;
+    width: 100%;
+}
+.email {
+    margin-left: 5px;
+    width: 100%;
+}
+
+.message {
+    margin-top: 30px;
+}
+
+.send {
+    margin-top: 20px;
+    background-color: rgb(56, 68, 105);
+    border: none;
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 1.5em;
+    color: lightgray;
+    transition: all 0.2s linear;
+}
+
+.send:hover {
+    cursor: pointer;
+    background-color: rgb(100, 58, 58);
+}
+
+.send:focus {
+    outline: none;
+}

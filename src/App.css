@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Source+Sans+Pro');
+
+.almost-white {
+  color: rgb(214, 198, 198);
+}
+
+.indented {
+  text-indent: 35px;
+}
+
+html, body, #root, #root>div {
+  height: 100%;
+  overflow: hidden;
+}
+
+.App {
+  height: 100%;
+  background-image: url('images/background.gif');
+  background-size:     cover;                  
+  background-repeat:   no-repeat;
+  background-position: center center;
+}
+
+.source-sans {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.code {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.hidden {
+  display: none;
+}
+
+.no-events {
+  pointer-events: none;
+}
+
+.lightgray {
+  color: lightgray;
+}
